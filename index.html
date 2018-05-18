@@ -243,8 +243,9 @@ var EM = {"ajaxurl":"https:\/\/www.wealllove.com\/wp-admin\/admin-ajax.php","loc
 <div class=" et_pb_row et_pb_row_0">
 <div class="et_pb_column et_pb_column_4_4  et_pb_column_0 et_pb_css_mix_blend_mode_passthrough et-last-child">
 <div class="et_pb_code et_pb_module  et_pb_code_0 et_pb_text_align_center">
-<div class="et_pb_code_inner">
-<iframe src="./index_files/tickets-external.html" height="275" width="800" frameborder="0" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe>
+<div id="eventbrite-widget-container-45564740365" class="et_pb_code_inner">
+<!--<iframe src="./index_files/tickets-external.html" height="275" width="800" frameborder="0" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe>
+-->
 </div> <!-- .et_pb_code_inner -->
 </div> <!-- .et_pb_code -->
 </div> <!-- .et_pb_column -->
@@ -391,6 +392,20 @@ div.mailster-form-info.error{display: none !important;}
 </footer> <!-- #main-footer -->
 </div> <!-- #et-main-area -->
 </div> <!-- #page-container -->
+<script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
+<script type="text/javascript">
+
+    window.EBWidgets.createWidget({
+        // Required
+        widgetType: 'checkout',
+        eventId: '45564740365',
+        iframeContainerId: 'eventbrite-widget-container-45564740365',
+        // Optional
+        iframeContainerHeight: 425,  // Widget height in pixels. Defaults to a minimum of 425px if not provided
+        iframeContainerWidth: 800
+    });
+</script>
+
 <script type="text/javascript">
 var et_animation_data = [];
 </script>
